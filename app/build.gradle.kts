@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.chatmate_bot"
+        applicationId = "com.example.chatbot"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -66,4 +66,5 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.generativeai)
 }
